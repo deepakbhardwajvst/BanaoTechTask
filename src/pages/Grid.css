@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+
+    div {
+      grid-template-columns: 1fr;
+      gap: 10px; 
+      margin-top: 20px; 
+    }
+  }
+  
