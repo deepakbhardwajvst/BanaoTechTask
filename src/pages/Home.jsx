@@ -20,7 +20,7 @@ const Home = () => {
         <GridCard />
       </div>
       <Testimonials />
-      <Footer />
+    
     </div>
   );
 };

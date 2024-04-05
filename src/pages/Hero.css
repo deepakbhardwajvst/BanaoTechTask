@@ -1,13 +1,12 @@
-
 @media (max-width: 768px) {
-    .hero-container {
-        flex-direction: column;
-        height: '100vh'; 
-    }
-    .hero-image {
-        order: 2; 
-    }
-    .auth-container {
-        order: 1; 
-    }
+  .hero-container {
+    flex-direction: column;
+    height: "100vh";
+  }
+  .hero-image {
+    order: 2;
+  }
+  .auth-container {
+    order: 1;
+  }
 }

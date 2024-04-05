@@ -33,17 +33,10 @@ const Auth = () => {
 
   const selectedBorderStyle = {
     borderBottom: "2px solid #6A0573",
-    width: "auto", // Adjusted width
+    width: "auto",
     textAlign: "center",
     cursor: "pointer",
   };
-
-  // const unselectedBorderStyle = {
-  //   borderBottom: '2px solid transparent',
-  //   width: 'auto', // Adjusted width
-  //   textAlign: 'center',
-  //   cursor: 'pointer'
-  // };
 
   const tabContainerStyle = {
     display: "flex",
@@ -63,7 +56,7 @@ const Auth = () => {
   const signInTabStyle = {
     ...tabStyle,
     ...(selectedTab === "Sign In" && selectedBorderStyle),
-    marginRight: "20px", // Add margin-right to create a gap
+    marginRight: "20px",
   };
 
   const joinInTabStyle = {
@@ -74,8 +67,8 @@ const Auth = () => {
   const orTextStyle = {
     textAlign: "center",
     margin: "20px 0",
-    fontWeight: "bold", // Made text bold
-    fontSize: "18px", // Increased font size
+    fontWeight: "bold",
+    fontSize: "18px",
     fontFamily: "DMM",
   };
 
@@ -84,7 +77,7 @@ const Auth = () => {
     width: "100%",
     marginBottom: "20px",
     borderRadius: "15px",
-    border: "1px solid transparent", // Set border color to transparent
+    border: "1px solid transparent",
   };
 
   const rememberMeContainerStyle = {

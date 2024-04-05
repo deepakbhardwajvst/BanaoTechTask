@@ -1,13 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Test from "./Test";
 import Dempo from "./Dempo";
 import Hero from "./Hero";
-// import GridCard from "./GridCard";
 import Testimonials from "../components/Testimonials";
 import Home from "./Home";
-
-import Footer from './../components/Footer';
+import Footer from "./../components/Footer";
 import Navbar from "../components/Navbar";
 const Layout = () => {
   return (

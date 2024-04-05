@@ -1,7 +1,6 @@
 import "./App.css";
 import "./assets/fonts/DMM.ttf";
 import Layout from "./pages/Layout";
-
 function App() {
   return (
     <div className="App">
@@ -9,5 +8,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
