@@ -1,13 +1,13 @@
-/* Assuming you have a CSS file for your Hero component, e.g., Hero.css */
+
 @media (max-width: 768px) {
     .hero-container {
         flex-direction: column;
-        height: '100vh'; /* Adjust the height for mobile */
+        height: '100vh'; 
     }
     .hero-image {
-        order: 2; /* Ensure the image is displayed at the bottom */
+        order: 2; 
     }
     .auth-container {
-        order: 1; /* Ensure the Auth component is displayed above the image */
+        order: 1; 
     }
 }
